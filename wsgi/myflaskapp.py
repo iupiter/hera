@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "OPENSHIFT PASS 환경에서 파이썬 웹서비스를 어떻게..."
+    return "OPENSHIFT PASS With FLASK WEB APPLICATION"
 
 if __name__ == "__main__":
     app.run()
